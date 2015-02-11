@@ -1,0 +1,52 @@
+-- DB structure
+CREATE DATABASE IF NOT EXISTS `web_app` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;  
+USE `web_app`;  
+
+-- Table structure web_app.moustache_pictures
+CREATE TABLE IF NOT EXISTS `moustache_pictures` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `file_name` varchar(45) NOT NULL,
+  `file_extention` varchar(45) NOT NULL DEFAULT 'jpg',
+  `img_descr` varchar(45) DEFAULT NULL,
+  `ranking` int(10) unsigned NOT NULL DEFAULT '0',
+  `average_ranking` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `file_name_UNIQUE` (`file_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+-- Data for table web_app.moustache_pictures
+ALTER TABLE `moustache_pictures`;
+INSERT INTO `moustache_pictures`(`file_name`,`img_descr`) VALUES
+("a_la_souvarov", "A la Souvarov"),
+("anchor", "Anchor"),
+("balbo", "Balbo"),
+("chin_curtain", "Chin Curtain"),
+("copstash_standard", "Copstash Standard"),
+("dali", "Dali"),
+("ducktail", "Ducktail"),
+("federation_standard", "Federation Standard"),
+("franz_josef", "Franz Josef"),
+("french_fork", "French Fork"),
+("friendly_mutton_chops", "Friendly Mutton Chops"),
+("fu_manchu", "Fu Manchu"),
+("goatee", "Goatee"),
+("handlebar", "Handlebar"),
+("handlebar_chin_puff", "Handlebar and Chin Puff"),
+("handlebar_goatee", "Handlebar and Goatee"),
+("hollywoodian", "Hollywoodian"),
+("hulihee", "Hulihee"),
+("klingon", "Klingon"),
+("mutton_chops", "Mutton Chops"),
+("napoleon3_imperial", "Napoleon III Imperial"),
+("old_dutch", "Old Dutch"),
+("pencil", "Pencil"),
+("petit_goatee", "Petit Goatee"),
+("rapindustry_standard", "Rap Industry Standard"),
+("short_boxed_beard", "Short Boxed Beard"),
+("soul_patch", "Soul Patch"),
+("sparrow", "Sparrow"),
+("super_mario", "Super Mario"),
+("van_dyke", "Van Dyke"),
+("winnfield", "The Winnfield"),
+("zappa", "The Zappa"); 
