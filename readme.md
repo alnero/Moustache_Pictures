@@ -21,17 +21,17 @@ Add following inside `<Context>` tag to **context.xml** found in Tomcat\conf fol
 #### Intellij Idea
 In order to have access to the image you upload add external directory e.g. **c:\UploadedImages** to Run/Debug Configurations and assign it to application context **/images**
 
-![alt text](https://github.com/alnero/Moustache_Pictures/tree/master/web/Images/idea_conf.png "Intellij Idea - Run/Debug Configurations")
+![alt text](https://github.com/alnero/Moustache_Pictures/raw/master/web/Images/idea_conf.png "Intellij Idea - Run/Debug Configurations")
 
 Fingers crossed, you will get the following:
 --------------------------------------------
-![alt text](https://github.com/alnero/Moustache_Pictures/tree/master/web/Images/gallery_example.png "Images are shown acc to rank")
+![alt text](https://github.com/alnero/Moustache_Pictures/raw/master/web/Images/gallery_example.png "Images are shown acc to rank")
 
 
-![alt text](https://github.com/alnero/Moustache_Pictures/tree/master/web/Images/rating_example.png "Here you rate image")
+![alt text](https://github.com/alnero/Moustache_Pictures/raw/master/web/Images/rating_example.png "Here you rate image")
 
 
-![alt text](https://github.com/alnero/Moustache_Pictures/tree/master/web/Images/game_example.png "Guess a moustache")
+![alt text](https://github.com/alnero/Moustache_Pictures/raw/master/web/Images/game_example.png "Guess a moustache")
 
 
-![alt text](https://github.com/alnero/Moustache_Pictures/tree/master/web/Images/upload_example.png "Upload your images")
+![alt text](https://github.com/alnero/Moustache_Pictures/raw/master/web/Images/upload_example.png "Upload your images")
